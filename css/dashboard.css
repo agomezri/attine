@@ -21,3 +21,10 @@ body {
   padding-bottom: 20px;
 
 }
+.sidebar{
+  background: blue;
+  color: white;
+}
+.footer{
+  background: #eee;
+}
