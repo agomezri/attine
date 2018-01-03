@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/binni_favicon.png">
+    <title>Attine by binni sign up</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <!-- Signup.css -->
+    <link rel="stylesheet" href="css/signup.css">
+  </head>
+  <body>
+    <div class="container" align='center'> <!-- /Logo Container -->
+      <img id="binni_logo" src="img/binni_logo.png">
+    </div> <!-- /Logo Container -->
+
+    <div class="container"> <!-- /Sign up Form Container -->
+
+      <form class="form-signup">
+        <h5 class="form-signup-heading">Sign up</h5>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputFirstName" class="sr-only">First Name</label>
+        <input type="text" id="inputFirstName" class="form-control" placeholder="First Name" required autofocus>
+        <label for="inputLastName" class="sr-only">Last Name</label>
+        <input type="text" id="inputLastName" class="form-control" placeholder="Last Name" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <label for="confirmPassword" class="sr-only">Confirm Password</label>
+        <input type="password" id="confirmPassword" class="form-control" placeholder="Confirm Password" required>
+
+        <button id="signup_button" class="btn btn-lg btn-primary btn-block"
+                onclick="location.href='login.html'" type="submit">Sign up</button>
+
+
+      </form>
+    </div> <!-- /Sign up Form Container -->
+
+    <div class="container"> <!-- /Log in option container -->
+      <form class="form-login">
+        <p align='center'>You already have an account? <a href="login.html"><font color=#2337aa>Log in</font></a></p>
+      </form>
+    </div> <!-- /Log in option container -->
+
+    <div class="container" id="appLinks">
+      <p>Get our mobile app</p>
+      <div class="apps" align = center>
+        <a class="appStore" href="#"><img class="_8a10v" alt="Available on the App Store" src="img/app-Store-badge.svg"></a>
+        <a class="googlePlay" href="#"><img class="_8a10v" alt="Available on Google Play" src="img/google-play-badge.png"></a></div>
+
+    </div>
+
+    <footer class=binni-footer align='center'>
+        <span class="footer">© 2017 binni</span>
+    </footer>
+  </body>
+</html>

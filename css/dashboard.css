@@ -1,0 +1,23 @@
+body {
+  /* background: black;
+  color: white; */
+  padding-top: 5px;
+  padding-bottom: 20px;
+
+}
+
+.navbar-brand{
+  max-width: 100px; /* with this I can resize the logo image.*/
+  height: auto;
+}
+
+.navbar-nav > li > a {
+    line-height: 50px;
+}
+
+.jumbotron {
+  /* color: black; */
+  padding-top: 100px;
+  padding-bottom: 20px;
+
+}

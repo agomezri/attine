@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/binni_favicon.png">
+    <title>Attine by binni log in</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <!-- Login.css -->
+    <link rel="stylesheet" href="css/login.css">
+  </head>
+  <body>
+    <div class="container" align='center'> <!-- /Logo Container -->
+      <img id="binni_logo" src="img/binni_logo.png">
+    </div> <!-- /Logo Container -->
+
+    <div class="container"> <!-- /Log in Form Container -->
+
+      <form class="form-signin">
+        <h5 class="form-signin-heading">Please log in</h5>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button id="signin_button" class="btn btn-lg btn-primary btn-block"
+                onclick="location.href='dashboard.html'" type="submit">Log in</button>
+        <a href="#"><p align="center"><font color=black>Forgot password?</font></p></a>
+
+      </form>
+    </div> <!-- /Login Form Container -->
+
+    <div class="container"> <!-- /Sign up option container -->
+      <form class="form-signup">
+        <p align='center'>Don't have an account? <a href="signup.html"><font color=#2337aa>Sign Up</font></a></p>
+      </form>
+    </div> <!-- /Sign up option container -->
+
+    <div class="container" id="appLinks">
+      <p>Get our mobile app</p>
+      <div class="apps" align= center>
+        <a class="appStore" href="#"><img class="_8a10v" alt="Available on the App Store" src="img/app-Store-badge.svg"></a>
+        <a class="googlePlay" href="#"><img class="_8a10v" alt="Available on Google Play" src="img/google-play-badge.png"></a></div>
+
+    </div>
+
+    <footer class=binni-footer align='center'>
+        <span class="footer">© 2017 binni</span>
+    </footer>
+  </body>
+</html>
